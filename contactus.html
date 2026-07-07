@@ -37,11 +37,11 @@
                 <div class="ui column">
                     <div class="ui container">
                         <div class="ui red inverted six item stackable menu">
-                            <a class="item active" href="/index.html">Home</a>
+                            <a class="item" href="/index.html">Home</a>
                             <a class="item" href="/services.html">Services</a>
                             <a class="item" href="/team.html">Team</a>
-                            <a class="item" href="/contactus.html">Contact Us</a>
-                            <a class="item" href="https://horakrealty.co.za/" target="_blank">Horak Realty</a>
+                            <a class="item active" href="/contactus.html">Contact Us</a>
+                            <a class="item" href="https://horakrealty.co.za/" target="_blank" >Horak Realty</a>
                             <a class="item" href="/Website_Privacy_Policy.pdf" target="_blank">Privacy Policy</a>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                 <div class="ui column">
                     <div class="ui back" style="min-height: 95vh">
                         <div class="ui two column stackable grid container">
-                            <div class="right floated column">
+                            <div class="column">
                                 <div class="ui container">
                                     <div
                                         class="ui segment"
@@ -64,22 +64,71 @@
                                                 255,
                                                 255,
                                                 75%
-                                            );
+                                            ); /* Alternative modern syntax */
                                         "
                                     >
-                                        <h1 class="ui header">Attorneys</h1>
-                                        <h1 class="ui header">Notaries</h1>
-                                        <h1 class="ui header">Conveyancers</h1>
-                                        <a
-                                            target="_blank"
-                                            href="/services.html"
+                                        <form
+                                            class="ui form"
+                                            action="https://formsubmit.co/jacquesdean42@gmail.com"
+                                            method="post"
                                         >
+                                            <div class="field">
+                                                <label><h4>Name</h4></label>
+                                                <div class="two fields">
+                                                    <div class="field">
+                                                        <input
+                                                            type="text"
+                                                            name="First&nbsp;Name"
+                                                            placeholder="First Name"
+                                                            required
+                                                        />
+                                                    </div>
+                                                    <div class="field">
+                                                        <input
+                                                            type="text"
+                                                            name="Last&nbsp;Name"
+                                                            placeholder="Last Name"
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div class="field">
+                                                    <label
+                                                        ><h4>E-mail</h4></label
+                                                    >
+                                                    <input
+                                                        name="Email"
+                                                        type="email"
+                                                        placeholder="JohnDoe@gmail.com"
+                                                        required
+                                                    />
+                                                </div>
+                                                <div class="field">
+                                                    <label
+                                                        ><h4>Message</h4></label
+                                                    >
+                                                    <textarea
+                                                        name="Message"
+                                                        required
+                                                    ></textarea>
+                                                </div>
+                                            </div>
+                                            <input
+                                                type="hidden"
+                                                name="_subject"
+                                                value="Website Form Request"
+                                            />
+                                            <input
+                                                type="hidden"
+                                                name="_template"
+                                                value="table"
+                                            />
                                             <button
-                                                class="ui inverted secondary button"
+                                                class="ui red submit button"
+                                                type="submit"
                                             >
-                                                Learn more
+                                                Submit
                                             </button>
-                                        </a>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
